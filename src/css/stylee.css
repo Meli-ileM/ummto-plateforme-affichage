@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+
+}
+html{
+    scroll-behavior: smooth;
+    
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: rgb(2,0,36);
+    font-family: 'Poppins';
+    background: linear-gradient(90deg, rgb(143, 171, 255) 100%, rgb(23, 23, 211) 35%, rgb(143, 171, 255) 100%);  
+}
+
+
+/*le pied de page*/
+
+.container{
+    max-width: 1200px;
+    margin: auto;/*la marge entre le footer et les article en haut*/
+    padding: 10px;
+
+}
+
+.rowfooter{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+ul{
+    list-style: none;  
+}
+
+.footer {
+    background-color: rgb(0, 4, 63);
+    font-family: 'Poppins';
+    line-height: 2;/*l'espace entre les liens de la liste*/
+    padding-top: 10px;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;/*y-x*/
+}
+
+.footer-col h4{
+    font-size: 29px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 25px;/*par rapport au liens*/
+    font-weight: 400;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(255, 255, 255);
+    height : 2px;
+    width : 42px;
+}
+
+.footer-col ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight :400;
+    display : block;   
+}
+
+.footer-col ul li a:hover{
+
+    color: rgb(255, 255, 255);
+    padding-left: 5px;
+    font-weight : 600;
+    transition: all 0.3s ease;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width:40px;
+    background-color:rgb(255, 255, 255);
+    margin: 0 10px 10px 5px;
+    text-align: center;
+    line-height: 40px;/*lespace entre le text et le top pour mieux centrer le text*/
+    border-radius: 50%;
+    color: #0d0179;
+}
+
+.footer-col .social-links a:hover{
+    transition: all 0.5s ease;
+    background-color:  rgb(0, 0, 0);
+    color: #fff;
+}
+
+.div2{
+    background-color:rgb(0, 4, 63);
+    width: 100%;
+    margin : auto;
+    
+}
+.div2 p{
+    text-align: center;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins' ;
+}
+
+
+/*Partie Responsive*/
+@media (max-width: 767px){/*md*/
+    .footer-col{
+        width:50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 574px){/*sm*/
+    .footer-col{
+        width:100%;
+        margin-bottom: 30px;
+
+    }
+}
+
+
+
+
+
+
+form button{
+	padding: 15px 25px;
+	border-radius: 5px;
+	border:none;
+	font-size: 15px;
+	color: rgb(10, 34, 134);
+	font-weight: bold;
+	background-color: #9ec5ff60;
+	outline:none;
+}
+
+ form button:hover{
+    background-color: rgb(17, 17, 157);
+    color: #fff;
+    transition:  0.25s ease-in-out;
+}
+
+
+  .gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: rgb(143, 171, 255);
+    bottom: 40px;
+    right: 50px;
+    border-radius: 300px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+  }
