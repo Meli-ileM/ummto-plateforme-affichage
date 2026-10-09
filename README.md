@@ -16,6 +16,22 @@
 
 </div>
 
+## 🚀 Démo en ligne / Live demo
+
+👉 **[Tester DEP-INFO / Try DEP-INFO](https://claude.ai/code/artifact/1ac44972-04b3-473c-9082-86f8dfc3f58a)**
+
+> 🇫🇷 Plateforme d'affichage du département informatique : tableau d'affichage par promo, recours, orientations. Démo avec données fictives.
+>
+> 🇬🇧 Computer science department notice board: posts by class, grade appeals, specialization choices. Demo with mock data.
+
+🔑 **Comptes de test / Test accounts** (mot de passe / password : `Demo2023`)
+
+| Rôle / Role | Email |
+|---|---|
+| 🎓 Étudiant / Student | `sara.amrani@etu.dep-info.dz` |
+| 👩‍🏫 Enseignant / Teacher | `k.haddad@dep-info.dz` |
+| 🏛️ Administration | `dep_info@dep-info.dz` |
+
 ---
 
 ## 🇬🇧 English
